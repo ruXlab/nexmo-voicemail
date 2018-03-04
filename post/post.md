@@ -16,6 +16,8 @@ To kick off development you can [checkout demo repository]( https://github.com/N
 
 In this tutorial we build simple voice mail inbox where callers will be asked to leave a voice message which will be emailed to the email using [Nexmo Voice API](https://developer.nexmo.com/api/voice) and Spring Boot.
 
+![](./received-email.png)
+
 To do this:
 
 * Configure environment
@@ -23,6 +25,7 @@ To do this:
 * Build a simple Spring Boot application 
 * Handle call events 
 * Handle recording webhook event and email record
+
 
 ## Prerequisites
 
