@@ -1,10 +1,8 @@
-
 ---
 title: Voice mail service
 products: voice/voice-api
 description: Never miss a call from customers using Nexmo Voice 
 ---
-
 # Voice mail application
 
 
@@ -14,7 +12,7 @@ To kick off development you can [checkout demo repository]( https://github.com/N
 
 ## In this tutorial
 
-In this tutorial we build simple voice mail inbox where callers will be asked to leave a voice message which will be emailed to the email using [Nexmo Voice API](https://developer.nexmo.com/api/voice) and Spring Boot.
+In this tutorial we build simple voice mail forwarder where callers asked to leave a voice message which will be sent to the email using [Nexmo Voice API](https://developer.nexmo.com/api/voice). Example of outcome:
 
 ![](./received-email.png)
 
