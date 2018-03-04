@@ -28,7 +28,7 @@ To do this:
 ## Prerequisites
 
 * [A Nexmo account](https://dashboard.nexmo.com/sign-up) 
-* [Source code](https://github.com/ruXlab/nexmo-voicemail)
+* [Demo Source code](https://github.com/ruXlab/nexmo-voicemail)
 * [The Nexmo CLI](https://github.com/nexmo/nexmo-cli) installed and set up
 
 
@@ -48,7 +48,8 @@ It will forward all incoming traffic from the randomly assigned host to your mac
 Next step is to create application associated with this service
 
 ```bash
-➜  nexmo app:create "voicemail app" https://iste.serveo.net/answer https://iste.serveo.net/event --keyfile nexmo_app.key
+➜  nexmo app:create "voicemail app" https://iste.serveo.net/answer https://iste.serveo.net/event \
+             --keyfile nexmo_app.key
 Application created: 0d76428d-a914-4d65-8c38-814d76986391
 Private Key saved to: nexmo_app.key
 ``` 
