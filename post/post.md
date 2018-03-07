@@ -12,17 +12,20 @@ To kick off development you can [checkout demo repository]( https://github.com/N
 
 ## In this tutorial
 
-In this tutorial we build simple voice mail forwarder where callers asked to leave a voice message which will be sent to the email using [Nexmo Voice API](https://developer.nexmo.com/api/voice). Example of outcome:
+In this tutorial we build simple voice mail forwarder where 
+callers asked to leave a voice message which will be sent to 
+the email using [Nexmo Voice API](https://developer.nexmo.com/api/voice) as an attachment. 
+Example of outcome:
 
 ![](./received-email.png)
 
 To do this:
 
-* Configure environment
-* Create a voice application and assign it to the phone number using Nexmo CLI
-* Build a simple Spring Boot application 
-* Handle call events 
-* Handle recording webhook event and email record
+* [Configure environment](#configure-environment)
+* [Create a voice application and assign it to the phone number using Nexmo CLI](#create-an-voice-application)
+* [Build a simple Spring Boot application](#spring-boot-application-skeleton) 
+* [Handle call events](#handle-call-events) 
+* [Handle recording webhook event and email record](#handle-recording-webhook-event-and-email-record)
 
 
 ## Prerequisites
