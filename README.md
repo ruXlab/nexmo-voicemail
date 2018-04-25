@@ -17,7 +17,7 @@ callers asked to leave a voice message which will be sent to
 the email using [Nexmo Voice API](https://developer.nexmo.com/api/voice) as an attachment. 
 Example of outcome:
 
-![](./received-email.png)
+![](./post/received-email.png)
 
 To do this:
 
@@ -103,7 +103,7 @@ public class VoiceMailSrv {
 
 Here you might notice that we need to provide `applicationId` and key, generated using nexmo-cli. To do so put `nexmo_app.key` to the `resources` folder and create `application.properties` file where spring boot will pick up application configuration.
 
-![](./resources-layout.png)
+![](./post/resources-layout.png)
 
 In resouces file you need to provide applicationId and additional configuration for SMTP server:
 
