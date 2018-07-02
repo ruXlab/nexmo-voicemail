@@ -1,14 +1,9 @@
----
-title: Voice mail service
-products: voice/voice-api
-description: Never miss a call from customers using Nexmo Voice 
----
 # Voice mail application
 
 
 As a business owner it's not always easy to handle huge volume of calls 24/7. On another hand each customer is important and it deserve to be served well.
 
-To kick off development you can [checkout demo repository]( https://github.com/Nexmo/ruby-sms-customer-support/) 
+To kick off development you can [checkout demo repository](https://github.com/ruXlab/nexmo-voicemail-service-tutorial) 
 
 ## In this tutorial
 
@@ -211,7 +206,7 @@ public void onRecordingFinished(
 
 Media storage is protected by JWT authorization but `NexmoClient` simplifies access to it and returns `InputStream` we can work with
 
-The full code of controller can be found [on github](https://github.com/ruXlab/nexmo-voicemail/blob/master/src/main/java/com/nexmo/demo/voicemail/VoiceMailController.java)
+The full code of controller can be found [on github](https://github.com/ruXlab/nexmo-voicemail-service-tutorial/blob/master/src/main/java/com/nexmo/demo/voicemail/VoiceMailController.java)
 
 
 # Conclusion
@@ -219,3 +214,12 @@ The full code of controller can be found [on github](https://github.com/ruXlab/n
 In this tutorial we quickly built simple voicemail recorder using seamlessly integrated nexmo-client to the spring boot application
 
 Nexmo has various actions in NCCO and combining them together it is possible to create endless applications for different use cases.  
+
+
+-----
+
+### Links
+
+* [github project](https://github.com/ruXlab/nexmo-voicemail-service-tutorial)
+* [blog post](https://rux.vc/2018.07/nexmo-voice-api-demo-voicemail-app/)
+* [ruX's github](https://github.com/ruXlab/)
